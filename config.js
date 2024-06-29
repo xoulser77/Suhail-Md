@@ -11,7 +11,7 @@ global.email ="xoulser@gmail.com"
 global.location="Lahore,Pakistan."
 
 
-global.mongodb= process.env.MONGODB_URI || ""
+global.mongodb= process.env.MONGODB_URI || "https://ap-southeast-1.aws.data.mongodb-api.com/app/data-kzyop/endpoint/data/v1"
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
